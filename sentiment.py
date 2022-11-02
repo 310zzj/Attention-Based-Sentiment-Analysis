@@ -7,4 +7,6 @@ Created on Thu Jul 15 19:20:18 2018
 """
 
 import os
-i
+import re
+import csv
+import codecs
