@@ -15,4 +15,6 @@ import pandas as pd
 
 from nltk.corpus import stopwords
 from nltk.stem import SnowballStemmer
-from strin
+from string import punctuation
+
+from gensim
