@@ -18,4 +18,5 @@ from nltk.stem import SnowballStemmer
 from string import punctuation
 
 from gensim.models import KeyedVectors
-from keras.preprocessing.text import To
+from keras.preprocessing.text import Tokenizer
+from keras.preprocessing.s
