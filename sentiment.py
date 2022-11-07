@@ -17,4 +17,5 @@ from nltk.corpus import stopwords
 from nltk.stem import SnowballStemmer
 from string import punctuation
 
-from gensim
+from gensim.models import KeyedVectors
+from
