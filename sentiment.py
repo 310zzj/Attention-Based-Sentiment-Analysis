@@ -19,4 +19,5 @@ from string import punctuation
 
 from gensim.models import KeyedVectors
 from keras.preprocessing.text import Tokenizer
-from keras.preprocessing.s
+from keras.preprocessing.sequence import pad_sequences
+from ker
