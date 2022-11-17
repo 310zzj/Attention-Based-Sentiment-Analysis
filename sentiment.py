@@ -32,4 +32,5 @@ from keras.callbacks import EarlyStopping, ModelCheckpoint
 import sys
 
 from keras import backend as K
-from keras.engine.topology import Laye
+from keras.engine.topology import Layer
+#from keras import initializations
