@@ -34,4 +34,5 @@ import sys
 from keras import backend as K
 from keras.engine.topology import Layer
 #from keras import initializations
-from keras import initializers
+from keras import initializers, regularizers, constraints
+from sklearn
