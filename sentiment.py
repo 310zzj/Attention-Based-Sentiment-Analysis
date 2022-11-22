@@ -38,4 +38,5 @@ from keras import initializers, regularizers, constraints
 from sklearn.metrics import roc_auc_score
 
 
-cl
+class Attention(Layer):
+     # I
