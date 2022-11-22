@@ -35,4 +35,7 @@ from keras import backend as K
 from keras.engine.topology import Layer
 #from keras import initializations
 from keras import initializers, regularizers, constraints
-from sklearn
+from sklearn.metrics import roc_auc_score
+
+
+cl
