@@ -39,4 +39,4 @@ from sklearn.metrics import roc_auc_score
 
 
 class Attention(Layer):
-     # I
+     # Input shape 3D tensor with shape: `(samples,
