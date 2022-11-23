@@ -40,4 +40,6 @@ from sklearn.metrics import roc_auc_score
 
 class Attention(Layer):
      # Input shape 3D tensor with shape: `(samples, steps, features)`.
-     # Output shape 2D tensor with shape: 
+     # Output shape 2D tensor with shape: `(samples, features)`.
+
+   
