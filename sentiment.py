@@ -42,4 +42,5 @@ class Attention(Layer):
      # Input shape 3D tensor with shape: `(samples, steps, features)`.
      # Output shape 2D tensor with shape: `(samples, features)`.
 
-    def __init__(self, step_dim,W_regulizer = None,b_regulizer 
+    def __init__(self, step_dim,W_regulizer = None,b_regulizer = None,
+                 W_constraint 
