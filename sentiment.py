@@ -45,4 +45,4 @@ class Attention(Layer):
     def __init__(self, step_dim,W_regulizer = None,b_regulizer = None,
                  W_constraint = None, b_constraint = None,bias = True,**kwargs):
         
-      
+        self.W_regulizer = W_regulizer
