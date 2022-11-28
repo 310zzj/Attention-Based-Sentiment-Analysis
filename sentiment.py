@@ -47,4 +47,5 @@ class Attention(Layer):
         
         self.W_regulizer = W_regulizer
         self.b_regulizer = b_regulizer
- 
+        
+        self.W_constrain
