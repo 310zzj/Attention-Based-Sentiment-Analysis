@@ -46,3 +46,5 @@ class Attention(Layer):
                  W_constraint = None, b_constraint = None,bias = True,**kwargs):
         
         self.W_regulizer = W_regulizer
+        self.b_regulizer = b_regulizer
+ 
