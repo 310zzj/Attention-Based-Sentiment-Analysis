@@ -51,4 +51,5 @@ class Attention(Layer):
         self.W_constraint = W_constraint
         self.b_constraint = b_constraint
         
-        self.bi
+        self.bias = bias
+        self.step_dim
