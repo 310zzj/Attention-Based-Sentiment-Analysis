@@ -55,4 +55,4 @@ class Attention(Layer):
         self.step_dim = step_dim
         self.features_dim = 0
         self.init = initializers.get('glorot_uniform')
-        super
+        super(Attention, self).__init__(**kwargs)
