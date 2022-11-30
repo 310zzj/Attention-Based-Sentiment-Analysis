@@ -54,4 +54,5 @@ class Attention(Layer):
         self.bias = bias
         self.step_dim = step_dim
         self.features_dim = 0
-        self.init = initialize
+        self.init = initializers.get('glorot_uniform')
+        super
