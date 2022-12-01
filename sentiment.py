@@ -58,4 +58,5 @@ class Attention(Layer):
         super(Attention, self).__init__(**kwargs)
 
     def build(self, input_shape):
-        assert le
+        assert len(input_shape) == 3
+    
