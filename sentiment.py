@@ -56,3 +56,5 @@ class Attention(Layer):
         self.features_dim = 0
         self.init = initializers.get('glorot_uniform')
         super(Attention, self).__init__(**kwargs)
+
+    def build(self, input
