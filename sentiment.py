@@ -57,4 +57,5 @@ class Attention(Layer):
         self.init = initializers.get('glorot_uniform')
         super(Attention, self).__init__(**kwargs)
 
-    def build(self, input
+    def build(self, input_shape):
+        assert le
