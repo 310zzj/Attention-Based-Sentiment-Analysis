@@ -59,4 +59,5 @@ class Attention(Layer):
 
     def build(self, input_shape):
         assert len(input_shape) == 3
-        # Create a trainable weight variab
+        # Create a trainable weight variable for this layer.
+        self.W =
