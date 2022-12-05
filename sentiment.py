@@ -61,4 +61,5 @@ class Attention(Layer):
         assert len(input_shape) == 3
         # Create a trainable weight variable for this layer.
         self.W = self.add_weight(name='kernel', 
-                                      shape=(input_shape[
+                                      shape=(input_shape[-1],),
+                     
