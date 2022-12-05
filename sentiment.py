@@ -62,4 +62,5 @@ class Attention(Layer):
         # Create a trainable weight variable for this layer.
         self.W = self.add_weight(name='kernel', 
                                       shape=(input_shape[-1],),
-                                      initializer= self.in
+                                      initializer= self.init,
+                                  
