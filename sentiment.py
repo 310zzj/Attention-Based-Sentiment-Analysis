@@ -65,4 +65,4 @@ class Attention(Layer):
                                       initializer= self.init,
                                       constraint = self.W_constraint,
                                       regularizer = self.W_regulizer,
-                        
+                                      name = '{}_W'.forma
