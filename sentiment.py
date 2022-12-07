@@ -64,4 +64,4 @@ class Attention(Layer):
                                       shape=(input_shape[-1],),
                                       initializer= self.init,
                                       constraint = self.W_constraint,
-                             
+                                      regularizer = self.W_reguliz
