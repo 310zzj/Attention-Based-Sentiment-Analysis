@@ -67,4 +67,4 @@ class Attention(Layer):
                                       regularizer = self.W_regulizer,
                                       name = '{}_W'.format(self.name))
         
-        s
+        self.features_dim = input_shape[-1]
