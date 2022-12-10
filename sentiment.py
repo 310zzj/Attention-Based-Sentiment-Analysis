@@ -68,3 +68,5 @@ class Attention(Layer):
                                       name = '{}_W'.format(self.name))
         
         self.features_dim = input_shape[-1]
+        
+        if self.b
