@@ -70,4 +70,5 @@ class Attention(Layer):
         self.features_dim = input_shape[-1]
         
         if self.bias:
-            self.b = self.add_
+            self.b = self.add_weight((input_shape[1],),
+          
