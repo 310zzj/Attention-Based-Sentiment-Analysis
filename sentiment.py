@@ -73,4 +73,4 @@ class Attention(Layer):
             self.b = self.add_weight((input_shape[1],),
                                      initializer='zero',
                                      name='{}_b'.format(self.name),
-                    
+                                     regularizer=self
