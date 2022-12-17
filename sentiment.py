@@ -74,4 +74,4 @@ class Attention(Layer):
                                      initializer='zero',
                                      name='{}_b'.format(self.name),
                                      regularizer=self.b_regulizer,
-              
+                                     constr
