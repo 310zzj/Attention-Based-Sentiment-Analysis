@@ -77,4 +77,4 @@ class Attention(Layer):
                                      constraint=self.b_constraint)
         else:
             self.b = None
-        su
+        super(Attention, self).build(in
