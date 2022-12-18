@@ -77,4 +77,7 @@ class Attention(Layer):
                                      constraint=self.b_constraint)
         else:
             self.b = None
-        super(Attention, self).build(in
+        super(Attention, self).build(input_shape)  
+
+    
+    def c
