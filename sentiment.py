@@ -76,3 +76,5 @@ class Attention(Layer):
                                      regularizer=self.b_regulizer,
                                      constraint=self.b_constraint)
         else:
+            self.b = None
+        su
