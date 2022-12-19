@@ -80,4 +80,6 @@ class Attention(Layer):
         super(Attention, self).build(input_shape)  
 
     
-    def c
+    def call(self, x, mask=None):
+      
+ 
