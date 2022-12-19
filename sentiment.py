@@ -82,4 +82,7 @@ class Attention(Layer):
     
     def call(self, x, mask=None):
       
-        features_dim = self.f
+        features_dim = self.features_dim
+        step_dim = self.step_dim
+
+   
