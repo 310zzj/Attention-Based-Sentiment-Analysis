@@ -85,4 +85,4 @@ class Attention(Layer):
         features_dim = self.features_dim
         step_dim = self.step_dim
 
-   
+        eij = K.reshape(K.d
