@@ -90,4 +90,8 @@ class Attention(Layer):
         if self.bias:
             eij += self.b
 
-        eij = K.tanh(
+        eij = K.tanh(eij)
+
+        a = K.exp(eij)
+
+ 
