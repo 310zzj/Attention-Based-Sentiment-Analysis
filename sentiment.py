@@ -88,4 +88,6 @@ class Attention(Layer):
         eij = K.reshape(K.dot(K.reshape(x, (-1, features_dim)), K.reshape(self.W, (features_dim, 1))), (-1, step_dim))
 
         if self.bias:
-            eij += self
+            eij += self.b
+
+        eij = K.tanh(
