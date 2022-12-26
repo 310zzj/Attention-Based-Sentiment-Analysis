@@ -97,4 +97,6 @@ class Attention(Layer):
         # apply mask after the exp. will be re-normalized next
         if mask is not None:
            
-            a *= K
+            a *= K.cast(mask, K.floatx())
+
+        a
