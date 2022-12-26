@@ -99,4 +99,4 @@ class Attention(Layer):
            
             a *= K.cast(mask, K.floatx())
 
-        a
+        a /= K.cast(K.sum(a, axis=1, keepdims
