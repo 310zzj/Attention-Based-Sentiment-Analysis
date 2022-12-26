@@ -94,4 +94,5 @@ class Attention(Layer):
 
         a = K.exp(eij)
 
-        # apply mask after the exp. will be re-normalized nex
+        # apply mask after the exp. will be re-normalized next
+        if mask is not
