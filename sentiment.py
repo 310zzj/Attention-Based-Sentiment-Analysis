@@ -102,4 +102,6 @@ class Attention(Layer):
         a /= K.cast(K.sum(a, axis=1, keepdims=True) + K.epsilon(), K.floatx())
 
         a = K.expand_dims(a)
-        weighted_input = x *
+        weighted_input = x * a
+    
+        return K.sum(w
