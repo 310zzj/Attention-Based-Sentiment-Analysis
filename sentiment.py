@@ -106,4 +106,5 @@ class Attention(Layer):
     
         return K.sum(weighted_input, axis=1)
 
-    def compute_output_shape(self, 
+    def compute_output_shape(self, input_shape):
+        return i
