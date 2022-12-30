@@ -104,4 +104,6 @@ class Attention(Layer):
         a = K.expand_dims(a)
         weighted_input = x * a
     
-        return K.sum(w
+        return K.sum(weighted_input, axis=1)
+
+   
