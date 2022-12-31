@@ -107,4 +107,11 @@ class Attention(Layer):
         return K.sum(weighted_input, axis=1)
 
     def compute_output_shape(self, input_shape):
-        return input_shape[0],  self.feature
+        return input_shape[0],  self.features_dim
+       
+
+
+
+
+        
+path
