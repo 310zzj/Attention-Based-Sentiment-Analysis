@@ -114,4 +114,5 @@ class Attention(Layer):
 
 
         
-path
+path = '../input/data'
+path1 = '.
