@@ -115,4 +115,5 @@ class Attention(Layer):
 
         
 path = '../input/data'
-path1 = '../input/glove-840b-tokens-300d-
+path1 = '../input/glove-840b-tokens-300d-vectors/'
+EMBEDDING_FILE=path1+'glove.8
