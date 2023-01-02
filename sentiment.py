@@ -115,4 +115,4 @@ class Attention(Layer):
 
         
 path = '../input/data'
-path1 = '.
+path1 = '../input/glove-840b-tokens-300d-
