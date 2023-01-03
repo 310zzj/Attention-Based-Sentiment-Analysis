@@ -120,4 +120,5 @@ EMBEDDING_FILE=path1+'glove.840B.300d.txt'
 TRAIN_DATA_FILE=path+'train.csv'
 TEST_DATA_FILE=path+'test.csv'
 
-MAX_SEQU
+MAX_SEQUENCE_LENGTH = 150
+MAX_NB_WORD
