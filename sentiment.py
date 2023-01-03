@@ -118,4 +118,6 @@ path = '../input/data'
 path1 = '../input/glove-840b-tokens-300d-vectors/'
 EMBEDDING_FILE=path1+'glove.840B.300d.txt'
 TRAIN_DATA_FILE=path+'train.csv'
-TEST_D
+TEST_DATA_FILE=path+'test.csv'
+
+MAX_SEQU
