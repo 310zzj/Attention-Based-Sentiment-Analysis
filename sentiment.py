@@ -126,3 +126,5 @@ EMBEDDING_DIM = 300
 VALIDATION_SPLIT = 0.1
 
 num_lstm = 300
+num_dense = 256
+lstm_dropout_rate = 0
