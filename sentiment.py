@@ -127,4 +127,7 @@ VALIDATION_SPLIT = 0.1
 
 num_lstm = 300
 num_dense = 256
-lstm_dropout_rate = 0
+lstm_dropout_rate = 0.25
+dense_dropout_rate = 0.25
+
+act 
