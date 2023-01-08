@@ -130,4 +130,7 @@ num_dense = 256
 lstm_dropout_rate = 0.25
 dense_dropout_rate = 0.25
 
-act 
+act = 'relu'
+
+
+####################
