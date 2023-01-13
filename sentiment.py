@@ -136,3 +136,5 @@ act = 'relu'
 ########################################
 ## index word vectors.
 ########################################
+print('Indexing word vectors')
+emb
