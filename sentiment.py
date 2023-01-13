@@ -137,4 +137,5 @@ act = 'relu'
 ## index word vectors.
 ########################################
 print('Indexing word vectors')
-emb
+embedding_index = {}
+with open(EMBEDD
