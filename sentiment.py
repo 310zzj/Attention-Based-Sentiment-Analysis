@@ -139,4 +139,5 @@ act = 'relu'
 print('Indexing word vectors')
 embedding_index = {}
 with open(EMBEDDING_FILE,'r') as f:
-    fo
+    for line in f:
+        values = line.spli
