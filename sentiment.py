@@ -138,4 +138,5 @@ act = 'relu'
 ########################################
 print('Indexing word vectors')
 embedding_index = {}
-with open(EMBEDD
+with open(EMBEDDING_FILE,'r') as f:
+    fo
