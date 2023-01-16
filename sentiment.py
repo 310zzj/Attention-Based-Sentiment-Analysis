@@ -140,4 +140,5 @@ print('Indexing word vectors')
 embedding_index = {}
 with open(EMBEDDING_FILE,'r') as f:
     for line in f:
-        values = line.spli
+        values = line.split()
+        word = values[0]
