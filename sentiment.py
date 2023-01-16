@@ -142,4 +142,4 @@ with open(EMBEDDING_FILE,'r') as f:
     for line in f:
         values = line.split()
         word = values[0]
-        coefs = np.asarray(values
+        coefs = np.asarray(values[1:], dtype = 'float32'
