@@ -145,4 +145,4 @@ with open(EMBEDDING_FILE,'r') as f:
         coefs = np.asarray(values[1:], dtype = 'float32')
         embedding_index[word] = coefs
 print('Indexed the word vectors')   
-print('Found %s w
+print('Found %s word vectors.' %len(embedding_index)) 
