@@ -148,4 +148,7 @@ print('Indexed the word vectors')
 print('Found %s word vectors.' %len(embedding_index))     
 
 train_df = pd.read_csv(TRAIN_DATA_FILE)
-test_df = pd.rea
+test_df = pd.read_csv(TEST_DATA_FILE)
+
+
+###########
