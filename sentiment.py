@@ -152,4 +152,5 @@ test_df = pd.read_csv(TEST_DATA_FILE)
 
 
 ########################################
-## Basic p
+## Basic preprocessing of text data. 
+#####
