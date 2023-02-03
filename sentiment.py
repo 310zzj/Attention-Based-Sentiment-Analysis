@@ -156,4 +156,5 @@ test_df = pd.read_csv(TEST_DATA_FILE)
 ########################################
 print('performing some basic preprocessing on data')
 
-#regex for removing non-alphanumeric c
+#regex for removing non-alphanumeric characters and spaces
+remove_speci
