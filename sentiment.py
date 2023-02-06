@@ -159,4 +159,5 @@ print('performing some basic preprocessing on data')
 #regex for removing non-alphanumeric characters and spaces
 remove_special_char = re.compile('r[^a-z\d]',re.IGNORECASE)
 
-#regex to replace al
+#regex to replace all numerics
+replace_numerics = r
