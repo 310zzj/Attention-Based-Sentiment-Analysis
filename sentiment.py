@@ -157,4 +157,6 @@ test_df = pd.read_csv(TEST_DATA_FILE)
 print('performing some basic preprocessing on data')
 
 #regex for removing non-alphanumeric characters and spaces
-remove_special_char = re.compile('r[^a-z\d]',
+remove_special_char = re.compile('r[^a-z\d]',re.IGNORECASE)
+
+#regex to replace al
