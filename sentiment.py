@@ -160,4 +160,7 @@ print('performing some basic preprocessing on data')
 remove_special_char = re.compile('r[^a-z\d]',re.IGNORECASE)
 
 #regex to replace all numerics
-replace_numerics = re.compile(r'\d+',re.IGN
+replace_numerics = re.compile(r'\d+',re.IGNORECASE)
+
+
+##############
