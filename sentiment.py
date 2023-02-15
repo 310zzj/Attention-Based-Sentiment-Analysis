@@ -164,4 +164,4 @@ replace_numerics = re.compile(r'\d+',re.IGNORECASE)
 
 
 ##############################################################################################
-## fuction for coverting the te
+## fuction for coverting the text to list of tokens after stopwor
