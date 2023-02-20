@@ -168,4 +168,6 @@ replace_numerics = re.compile(r'\d+',re.IGNORECASE)
 ##############################################################################################
 def preprocess_text(text, remove_stopwords = True, perform_stemming = True):
     #convert text to lowercase and split.
-    te
+    text = text.lower().split()
+    
+    #s
