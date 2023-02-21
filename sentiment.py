@@ -170,4 +170,4 @@ def preprocess_text(text, remove_stopwords = True, perform_stemming = True):
     #convert text to lowercase and split.
     text = text.lower().split()
     
-    #s
+    #stopword removal(you can use your own set of st
