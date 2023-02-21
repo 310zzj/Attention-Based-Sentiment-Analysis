@@ -170,4 +170,5 @@ def preprocess_text(text, remove_stopwords = True, perform_stemming = True):
     #convert text to lowercase and split.
     text = text.lower().split()
     
-    #stopword removal(you can use your own set of stopwords, here we are using defaul
+    #stopword removal(you can use your own set of stopwords, here we are using default from nltk stopwords)
+    if(remove_sto
