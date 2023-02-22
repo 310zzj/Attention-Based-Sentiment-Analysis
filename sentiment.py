@@ -173,4 +173,6 @@ def preprocess_text(text, remove_stopwords = True, perform_stemming = True):
     #stopword removal(you can use your own set of stopwords, here we are using default from nltk stopwords)
     if(remove_stopwords):
         stop_words = set(stopwords.words('english'))
-        text = [word for word in text if wo
+        text = [word for word in text if word not in stop_words]
+     
+    tex
