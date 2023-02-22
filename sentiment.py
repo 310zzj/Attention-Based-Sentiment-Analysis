@@ -171,4 +171,5 @@ def preprocess_text(text, remove_stopwords = True, perform_stemming = True):
     text = text.lower().split()
     
     #stopword removal(you can use your own set of stopwords, here we are using default from nltk stopwords)
-    if(remove_sto
+    if(remove_stopwords):
+        stop_words = set
