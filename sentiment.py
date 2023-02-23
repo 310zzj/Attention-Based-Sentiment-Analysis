@@ -175,4 +175,5 @@ def preprocess_text(text, remove_stopwords = True, perform_stemming = True):
         stop_words = set(stopwords.words('english'))
         text = [word for word in text if word not in stop_words]
      
-    tex
+    text = ' '.join(text)   
+    
