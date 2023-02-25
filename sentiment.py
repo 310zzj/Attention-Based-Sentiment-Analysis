@@ -180,4 +180,5 @@ def preprocess_text(text, remove_stopwords = True, perform_stemming = True):
     text = remove_special_char.sub('', text)
     text = replace_numerics.sub('n', text)
         
-    if(perform
+    if(perform_stemming):
+        text = te
