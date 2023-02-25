@@ -177,4 +177,5 @@ def preprocess_text(text, remove_stopwords = True, perform_stemming = True):
      
     text = ' '.join(text)   
     
-    text = remove_special_char.sub('', 
+    text = remove_special_char.sub('', text)
+    text = replace_numerics.sub(
