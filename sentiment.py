@@ -181,4 +181,5 @@ def preprocess_text(text, remove_stopwords = True, perform_stemming = True):
     text = replace_numerics.sub('n', text)
         
     if(perform_stemming):
-        text = te
+        text = text.split()
+        stemmer = Snowbal
