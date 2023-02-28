@@ -182,4 +182,5 @@ def preprocess_text(text, remove_stopwords = True, perform_stemming = True):
         
     if(perform_stemming):
         text = text.split()
-        stemmer = Snowbal
+        stemmer = SnowballStemmer('english')
+        
