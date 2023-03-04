@@ -184,4 +184,6 @@ def preprocess_text(text, remove_stopwords = True, perform_stemming = True):
         text = text.split()
         stemmer = SnowballStemmer('english')
         stemmed_words = [stemmer.stem(word) for word in text]
-        text = ' '.
+        text = ' '.join(stemmed_words)
+        
+    return 
