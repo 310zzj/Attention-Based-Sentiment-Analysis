@@ -186,4 +186,7 @@ def preprocess_text(text, remove_stopwords = True, perform_stemming = True):
         stemmed_words = [stemmer.stem(word) for word in text]
         text = ' '.join(stemmed_words)
         
-    return 
+    return text    
+
+
+#########################
