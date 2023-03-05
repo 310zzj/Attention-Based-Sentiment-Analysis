@@ -190,3 +190,4 @@ def preprocess_text(text, remove_stopwords = True, perform_stemming = True):
 
 
 ##################################################
+## forming sequeces 
