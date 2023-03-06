@@ -190,4 +190,5 @@ def preprocess_text(text, remove_stopwords = True, perform_stemming = True):
 
 
 ##################################################
-## forming sequeces 
+## forming sequeces to feed into the network.
+#######
