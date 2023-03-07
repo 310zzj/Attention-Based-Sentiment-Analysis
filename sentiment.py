@@ -191,4 +191,5 @@ def preprocess_text(text, remove_stopwords = True, perform_stemming = True):
 
 ##################################################
 ## forming sequeces to feed into the network.
-##################################
+##################################################    
+raw_train_comments = t
