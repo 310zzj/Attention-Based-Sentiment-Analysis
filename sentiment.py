@@ -194,4 +194,4 @@ def preprocess_text(text, remove_stopwords = True, perform_stemming = True):
 ##################################################    
 raw_train_comments = train_df['comments'].fillna('NA').values
 raw_test_comments = test_df['comments'].fillna('NA').values
-cla
+classes_to_predict = ["toxic", "sev
