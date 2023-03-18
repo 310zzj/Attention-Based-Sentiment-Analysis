@@ -195,4 +195,5 @@ def preprocess_text(text, remove_stopwords = True, perform_stemming = True):
 raw_train_comments = train_df['comments'].fillna('NA').values
 raw_test_comments = test_df['comments'].fillna('NA').values
 classes_to_predict = ["toxic", "severe_toxic", "obscene", "threat", "insult", "identity_hate"]
-y = train_df[classes_to_predict].v
+y = train_df[classes_to_predict].values
+#y_test_predicted = test_df[
