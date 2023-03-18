@@ -198,4 +198,5 @@ classes_to_predict = ["toxic", "severe_toxic", "obscene", "threat", "insult", "i
 y = train_df[classes_to_predict].values
 #y_test_predicted = test_df[classes_to_predict].values
 
-proces
+processed_train_comments = []
+for 
