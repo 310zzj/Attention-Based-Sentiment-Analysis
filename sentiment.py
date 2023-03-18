@@ -199,4 +199,5 @@ y = train_df[classes_to_predict].values
 #y_test_predicted = test_df[classes_to_predict].values
 
 processed_train_comments = []
-for 
+for comment in raw_train_comments:
+ 
