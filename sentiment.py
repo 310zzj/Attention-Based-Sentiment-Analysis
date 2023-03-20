@@ -200,4 +200,5 @@ y = train_df[classes_to_predict].values
 
 processed_train_comments = []
 for comment in raw_train_comments:
-    processed_train_comments.a
+    processed_train_comments.append(preprocess_text(comment))
+  
