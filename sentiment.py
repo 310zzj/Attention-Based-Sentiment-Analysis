@@ -203,3 +203,4 @@ for comment in raw_train_comments:
     processed_train_comments.append(preprocess_text(comment))
     
 processed_test_comments = []    
+for comment in raw_test_comments
