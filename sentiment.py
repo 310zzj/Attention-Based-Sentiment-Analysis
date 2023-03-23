@@ -207,4 +207,4 @@ for comment in raw_test_comments:
     processed_test_comments.append(preprocess_text(comment))
         
 
-token
+tokenizer = Tokenizer(num_words = 
