@@ -207,4 +207,5 @@ for comment in raw_test_comments:
     processed_test_comments.append(preprocess_text(comment))
         
 
-tokenizer = Tokenizer(num_words = 
+tokenizer = Tokenizer(num_words = MAX_NB_WORDS)
+tokenizer.fit_on
