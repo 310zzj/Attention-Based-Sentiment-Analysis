@@ -215,4 +215,4 @@ test_sequences = tokenizer.text_to_sequences(processed_test_comments)
 
 print('found %s tokens in text.' %(tokenizer.word_index))
 
-tra
+train_data = pad_sequences(train_
