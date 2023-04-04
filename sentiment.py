@@ -218,4 +218,4 @@ print('found %s tokens in text.' %(tokenizer.word_index))
 train_data = pad_sequences(train_sequences, maxlen = MAX_SEQUENCE_LENGTH)
 final_test_data = pad_sequences(test_sequences, maxlen = MAX_SEQUENCE_LENGTH)
 
-print('shape 
+print('shape of train_data(will be divide
