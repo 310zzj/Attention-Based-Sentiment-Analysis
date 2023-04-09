@@ -219,4 +219,5 @@ train_data = pad_sequences(train_sequences, maxlen = MAX_SEQUENCE_LENGTH)
 final_test_data = pad_sequences(test_sequences, maxlen = MAX_SEQUENCE_LENGTH)
 
 print('shape of train_data(will be divided further into final_train_data + final_validation_data) ready for feeding to network is %s' %(train_data.shape))
-print('shape of final_test_data ready for fedding to network is %s' %(fina
+print('shape of final_test_data ready for fedding to network is %s' %(final_test_data.shape))
+print('shape o
