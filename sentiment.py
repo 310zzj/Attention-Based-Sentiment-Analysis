@@ -225,4 +225,5 @@ print('shape of label(y) is %s' %(y.shape))
 
 
 ##################################################
-## preparing word e
+## preparing word embeddings.
+############################
