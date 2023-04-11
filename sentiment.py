@@ -227,4 +227,5 @@ print('shape of label(y) is %s' %(y.shape))
 ##################################################
 ## preparing word embeddings.
 ##################################################
-print('pr
+print('preparing embedding matrix')
+word_i
