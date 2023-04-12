@@ -229,4 +229,5 @@ print('shape of label(y) is %s' %(y.shape))
 ##################################################
 print('preparing embedding matrix')
 word_index = tokenizer.word_index
-nb_words  = min(MAX_NB_WORDS, len(wor
+nb_words  = min(MAX_NB_WORDS, len(word_index))
+embedding_matri
