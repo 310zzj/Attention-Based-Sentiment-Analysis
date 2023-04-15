@@ -234,4 +234,4 @@ embedding_matrix = np.zeros((nb_words, EMBEDDING_DIM))
 for word, i in word_index.items():
     if(i> MAX_NB_WORDS):
         continue
-    emb
+    embedding_vector = embedding_index.get(w
