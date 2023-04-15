@@ -231,4 +231,5 @@ print('preparing embedding matrix')
 word_index = tokenizer.word_index
 nb_words  = min(MAX_NB_WORDS, len(word_index))
 embedding_matrix = np.zeros((nb_words, EMBEDDING_DIM))
-for word, i in wor
+for word, i in word_index.items():
+    if(i> MAX_
