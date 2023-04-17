@@ -235,4 +235,5 @@ for word, i in word_index.items():
     if(i> MAX_NB_WORDS):
         continue
     embedding_vector = embedding_index.get(word) 
-    if(embedding_vector is
+    if(embedding_vector is not None):
+        em
