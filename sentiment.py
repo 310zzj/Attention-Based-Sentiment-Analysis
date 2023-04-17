@@ -236,4 +236,5 @@ for word, i in word_index.items():
         continue
     embedding_vector = embedding_index.get(word) 
     if(embedding_vector is not None):
-        em
+        embedding_matrix[i] = embedding_vector
+prin
