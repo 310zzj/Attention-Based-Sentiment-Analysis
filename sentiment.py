@@ -237,4 +237,4 @@ for word, i in word_index.items():
     embedding_vector = embedding_index.get(word) 
     if(embedding_vector is not None):
         embedding_matrix[i] = embedding_vector
-prin
+print('embedding matrix preparation comp
