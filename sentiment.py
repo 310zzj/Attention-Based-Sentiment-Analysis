@@ -243,4 +243,4 @@ print('embedding matrix preparation complete')
 ##################################################
 ## train and validation split.
 ##################################################  
-pr
+print('creating train and validati
