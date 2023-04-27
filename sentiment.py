@@ -244,4 +244,4 @@ print('embedding matrix preparation complete')
 ## train and validation split.
 ##################################################  
 print('creating train and validation data by dividing train_data in 80:20 ratio')
-permutati
+permutation = np.random.permut
