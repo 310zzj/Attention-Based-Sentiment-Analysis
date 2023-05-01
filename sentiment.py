@@ -246,4 +246,6 @@ print('embedding matrix preparation complete')
 print('creating train and validation data by dividing train_data in 80:20 ratio')
 permutation = np.random.permutation(len(train_data))
 index_train = permutation[:int(len(train_data)*0.8)]
-index_validation = permutation[int(len(train_
+index_validation = permutation[int(len(train_data)*0.2):]
+
+final_trai
