@@ -251,4 +251,4 @@ index_validation = permutation[int(len(train_data)*0.2):]
 final_train_data = train_data[index_train]
 labels_of_train_data = y[index_train]
 
-final_validation_
+final_validation_data = train_data[index_val
