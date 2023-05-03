@@ -254,4 +254,4 @@ labels_of_train_data = y[index_train]
 final_validation_data = train_data[index_validation]
 labels_of_validation_data = y[index_validation]
 
-pri
+print('train data shape:', fina
