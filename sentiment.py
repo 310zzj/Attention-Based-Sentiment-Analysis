@@ -252,4 +252,6 @@ final_train_data = train_data[index_train]
 labels_of_train_data = y[index_train]
 
 final_validation_data = train_data[index_validation]
-labels_of_validation_data = y[
+labels_of_validation_data = y[index_validation]
+
+pri
