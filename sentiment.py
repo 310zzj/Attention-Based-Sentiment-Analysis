@@ -255,4 +255,4 @@ final_validation_data = train_data[index_validation]
 labels_of_validation_data = y[index_validation]
 
 print('train data shape:', final_train_data.shape)
-print('validation
+print('validation data shape:', final_validat
