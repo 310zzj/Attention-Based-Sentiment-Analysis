@@ -259,4 +259,5 @@ print('validation data shape:', final_validation_data.shape)
 print('train and validation data are ready!!')
 
 
-#################
+############################
+## Keras model structure
