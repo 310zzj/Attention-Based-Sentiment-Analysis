@@ -260,4 +260,5 @@ print('train and validation data are ready!!')
 
 
 ############################
-## Keras model structure
+## Keras model structure.
+#################
