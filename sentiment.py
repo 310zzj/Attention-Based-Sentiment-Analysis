@@ -261,4 +261,5 @@ print('train and validation data are ready!!')
 
 ############################
 ## Keras model structure.
-#################
+############################
+embedding_layer = Embeddi
