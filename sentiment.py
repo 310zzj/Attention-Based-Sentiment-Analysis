@@ -262,4 +262,5 @@ print('train and validation data are ready!!')
 ############################
 ## Keras model structure.
 ############################
-embedding_layer = Embedding(nb_words, EMBEDDING_DIM, weights = [embedding_matrix], input_length = MAX_SEQUENCE_LENGTH, trainab
+embedding_layer = Embedding(nb_words, EMBEDDING_DIM, weights = [embedding_matrix], input_length = MAX_SEQUENCE_LENGTH, trainable = False)
+lstm_layer = LSTM(num_lstm, drop
