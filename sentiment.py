@@ -265,4 +265,4 @@ print('train and validation data are ready!!')
 embedding_layer = Embedding(nb_words, EMBEDDING_DIM, weights = [embedding_matrix], input_length = MAX_SEQUENCE_LENGTH, trainable = False)
 lstm_layer = LSTM(num_lstm, dropout = lstm_dropout_rate, recurrent_dropout = lstm_dropout_rate, return_sequences = True )       
 
-input
+input_comment = Input(shape = (MAX_SEQUENCE
