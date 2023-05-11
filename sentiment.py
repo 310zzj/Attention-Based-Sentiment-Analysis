@@ -267,4 +267,5 @@ lstm_layer = LSTM(num_lstm, dropout = lstm_dropout_rate, recurrent_dropout = lst
 
 input_comment = Input(shape = (MAX_SEQUENCE_LENGTH,), dtype = 'int32')
 embedded_sequence = embedding_layer(input_comment)
-x = lstm_layer(embedded_sequenc
+x = lstm_layer(embedded_sequence)
+x = Dropout(dense_dropo
