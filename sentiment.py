@@ -269,4 +269,5 @@ input_comment = Input(shape = (MAX_SEQUENCE_LENGTH,), dtype = 'int32')
 embedded_sequence = embedding_layer(input_comment)
 x = lstm_layer(embedded_sequence)
 x = Dropout(dense_dropout_rate)(x)
-merged = Attention(M
+merged = Attention(MAX_SEQUENCE_LENGTH)(x)
+merged = Dense(nu
