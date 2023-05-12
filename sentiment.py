@@ -271,4 +271,5 @@ x = lstm_layer(embedded_sequence)
 x = Dropout(dense_dropout_rate)(x)
 merged = Attention(MAX_SEQUENCE_LENGTH)(x)
 merged = Dense(num_dense, activation = act)(merged)
-merged = Dropout(de
+merged = Dropout(dense_dropout_rate)(merged)
+merged = Batch
