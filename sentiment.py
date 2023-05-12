@@ -270,4 +270,4 @@ embedded_sequence = embedding_layer(input_comment)
 x = lstm_layer(embedded_sequence)
 x = Dropout(dense_dropout_rate)(x)
 merged = Attention(MAX_SEQUENCE_LENGTH)(x)
-merged = Dense(nu
+merged = Dense(num_dense, activation = act)(mer
