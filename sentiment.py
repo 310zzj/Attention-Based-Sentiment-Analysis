@@ -277,4 +277,5 @@ preds = Dense(len(classes_to_predict), activation = 'sigmoid')(merged)
 
 
 #########################
-## tr
+## train the model.
+#############
