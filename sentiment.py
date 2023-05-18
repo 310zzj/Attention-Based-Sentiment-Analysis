@@ -281,4 +281,6 @@ preds = Dense(len(classes_to_predict), activation = 'sigmoid')(merged)
 #########################
 model = Model(inputs = [input_comment], outputs = preds)
 model.compile(optimizer = 'rmsprop', loss = 'binary_crossentropy', metrics = ['accuracy'])
-print(model.s
+print(model.summary())
+
+stamp = 'sentiment
