@@ -280,4 +280,5 @@ preds = Dense(len(classes_to_predict), activation = 'sigmoid')(merged)
 ## train the model.
 #########################
 model = Model(inputs = [input_comment], outputs = preds)
-model.compile(optimizer = 'rmsprop', loss = 'binary_crossentropy', metric
+model.compile(optimizer = 'rmsprop', loss = 'binary_crossentropy', metrics = ['accuracy'])
+print(model.s
