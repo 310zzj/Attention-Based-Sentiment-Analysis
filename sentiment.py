@@ -280,4 +280,4 @@ preds = Dense(len(classes_to_predict), activation = 'sigmoid')(merged)
 ## train the model.
 #########################
 model = Model(inputs = [input_comment], outputs = preds)
-model.com
+model.compile(optimizer = 'rmsprop',
