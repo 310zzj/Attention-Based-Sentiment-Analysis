@@ -283,4 +283,6 @@ model = Model(inputs = [input_comment], outputs = preds)
 model.compile(optimizer = 'rmsprop', loss = 'binary_crossentropy', metrics = ['accuracy'])
 print(model.summary())
 
-stamp = 'sentiment_with_lstm_and_glove_%.2f_%.2f'%(lstm_dropout_rate,dense_dropout_ra
+stamp = 'sentiment_with_lstm_and_glove_%.2f_%.2f'%(lstm_dropout_rate,dense_dropout_rate)
+print(stamp)
+best_model_path
