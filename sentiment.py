@@ -287,4 +287,5 @@ stamp = 'sentiment_with_lstm_and_glove_%.2f_%.2f'%(lstm_dropout_rate,dense_dropo
 print(stamp)
 best_model_path = stamp + '.h5'
 
-early_stoppin
+early_stopping = EarlyStopping(patience = 2)
+m
