@@ -288,4 +288,4 @@ print(stamp)
 best_model_path = stamp + '.h5'
 
 early_stopping = EarlyStopping(patience = 2)
-model_checkpoint = ModelCh
+model_checkpoint = ModelCheckpoint(best_model_path, save_best_o
