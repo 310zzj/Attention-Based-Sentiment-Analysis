@@ -290,4 +290,5 @@ best_model_path = stamp + '.h5'
 early_stopping = EarlyStopping(patience = 2)
 model_checkpoint = ModelCheckpoint(best_model_path, save_best_only = True, save_weights_only = True)
 
-hist = model.fit(x = final_trai
+hist = model.fit(x = final_train_data, y = labels_of_train_data,\
+  
