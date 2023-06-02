@@ -293,4 +293,4 @@ model_checkpoint = ModelCheckpoint(best_model_path, save_best_only = True, save_
 hist = model.fit(x = final_train_data, y = labels_of_train_data,\
                  validation_data = (final_validation_data, labels_of_validation_data), \
                  epochs = 20, batch_size = 256, shuffle = True, \
-                 callbacks = [ear
+                 callbacks = [early_stopping, model_checkpoin
