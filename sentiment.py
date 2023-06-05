@@ -297,4 +297,5 @@ hist = model.fit(x = final_train_data, y = labels_of_train_data,\
 best_score = min(hist.history['val_loss'])
 
 
-################################
+#######################################
+## time to make predict
