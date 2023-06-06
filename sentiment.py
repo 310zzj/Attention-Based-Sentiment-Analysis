@@ -300,4 +300,4 @@ best_score = min(hist.history['val_loss'])
 #######################################
 ## time to make prediction!!!
 ########################################
-y_test_predicted =
+y_test_predicted = model.predict([final_test_da
