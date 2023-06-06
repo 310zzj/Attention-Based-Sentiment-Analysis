@@ -298,4 +298,5 @@ best_score = min(hist.history['val_loss'])
 
 
 #######################################
-## time to make predict
+## time to make prediction!!!
+########################
