@@ -301,4 +301,5 @@ best_score = min(hist.history['val_loss'])
 ## time to make prediction!!!
 ########################################
 y_test_predicted = model.predict([final_test_data], batch_size = 1024, verbose = 1)
-sample_submission = pd.read_csv("../input/sample_submissi
+sample_submission = pd.read_csv("../input/sample_submission.csv")
+sample_submission[class
