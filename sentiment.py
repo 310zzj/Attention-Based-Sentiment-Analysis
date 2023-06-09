@@ -304,4 +304,11 @@ y_test_predicted = model.predict([final_test_data], batch_size = 1024, verbose =
 sample_submission = pd.read_csv("../input/sample_submission.csv")
 sample_submission[classes_to_predict] = y_test_predicted
 
-sample_submission.to_csv('%.4f_'%(bst_val_score)+STAMP+
+sample_submission.to_csv('%.4f_'%(bst_val_score)+STAMP+'.csv', index=False)
+
+
+
+
+
+
+
